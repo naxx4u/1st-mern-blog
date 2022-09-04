@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #131e30;
+    background: -webkit-linear-gradient(to right, #243b55, #141e30);
+    background: linear-gradient(to right, #243b55, #141e30);
+    min-height: 100vh;
+   
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+    background:  rgb(147 197 253);
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(to right, #243b55, #141e30);
+    border-radius: 5px;
+  }
+}
